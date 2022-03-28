@@ -12,16 +12,16 @@ for x in range(0, 5000):
     seed(x)
 
     hd = (randint(0, 256), randint(0, 256), randint(0, 256))
-    c = randint(0,500)
+    c = randint(0, 500)
     seed(c)
 
     th = (randint(0, 256), randint(0, 256), randint(0, 256))
-    d = randint(0,1000)
+    d = randint(0, 1000)
     seed(d)
 
-    ew = (240,248,255)
+    ew = (240, 248, 255)
     ey = (0, 0, 0)
-    e = randint(0,1000)
+    e = randint(0, 1000)
     hg = (252, 116, 106)
     seed(e)
 
@@ -37,19 +37,19 @@ for x in range(0, 5000):
 
     # background color
     bg = (randint(0, 256), randint(0, 256), randint(0, 256))
-    #hat light
+    # hat light
     hl = (randint(0, 256), randint(0, 256), randint(0, 256))
-    #2nd_hat_colour
+    # 2nd_hat_colour
     h2 = (randint(0, 256), randint(0, 256), randint(0, 256))
     # outline color
     ol = (0, 0, 0)
-    #bandana
+    # bandana
     bn = (randint(0, 256), randint(0, 256), randint(0, 256))
     bl = (179, 92, 16)
     sm = (179, 179, 179)
-    #hoodie
+    # hoodie
     ho = (randint(0, 256), randint(0, 256), randint(0, 256))
-    #beard
+    # beard
     f = randint(0, 1000)
     if f > 500:
         # if random number is 501-1000 >> grey beak
@@ -337,7 +337,7 @@ for x in range(0, 5000):
         [bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
         [bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
     ]
-    #man with hair and eyes
+    # man with hair and eyes
     man_with_hair2 = [
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
@@ -365,7 +365,7 @@ for x in range(0, 5000):
         [bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
         [bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
     ]
-    #man with different eyes
+    # man with different eyes
     man_with_hair3 = [
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
@@ -421,7 +421,7 @@ for x in range(0, 5000):
         [bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
         [bg, bg, bg, bg, bg, bg, bg, bg, ol, hd, hd, hd, hd, ol, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg]
     ]
-    #man with different eyesand no beard
+    # man with different eyesand no beard
     man_with_hair5 = [
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg],
